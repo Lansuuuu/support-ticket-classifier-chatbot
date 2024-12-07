@@ -33,8 +33,8 @@ class TicketDataset(Dataset):
         }
 
 #Load datasets
-train_data = pd.read_csv("dataset/train_data.csv")
-val_data = pd.read_csv("dataset/val_data.csv")
+train_data = pd.read_csv("/workspaces/support-ticket-classifier-chatbot/dataset/train_data.csv")
+val_data = pd.read_csv("/workspaces/support-ticket-classifier-chatbot/dataset/val_data.csv")
 
 #Prepare datasets for training and validation
 train_dataset = TicketDataset(train_data, tokenizer)
