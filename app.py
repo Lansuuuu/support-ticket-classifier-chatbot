@@ -32,7 +32,7 @@ def classify_ticket(query):
     return predicted_class
 
 #Streamlit GUI
-st.title("Automated Support Ticket Chatbot")
+st.title("Resolvo")
 
 user_query = st.text_input("Enter your support ticket query:")
 if user_query:
